@@ -1,0 +1,23 @@
+{
+    "name": "motrotz/esi-auth-jwt-verifyer",
+    "description": "Verifies ESI JWT and returns user / token info",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "7.7.x-dev",
+        "gree/jose": "dev-master",
+        "phpseclib/phpseclib": "2.*.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Motrotz\\EsiAuthJwtVerifyer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Elias Wolfhard",
+            "email": "hello@elias-wolfhard.dev"
+        }
+    ],
+    "minimum-stability": "dev"
+}
